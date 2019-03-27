@@ -1,0 +1,20 @@
+/*stylesheet*/
+
+.title { /*Set styling for the graph title, bold so it stands out more*/
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.axis path,
+.axis line { /*Set styling for the border of the graph*/
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text { /*Set styling for the axis of the graph*/
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
